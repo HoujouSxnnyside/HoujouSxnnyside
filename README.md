@@ -1,4 +1,4 @@
-<h1 align="center" style="color: #FF69B4;">✨ Hola, soy Houjou Sxnnyside! ✨</h1>
+<h1 align="center" style="color: #FF69B4;">✨ ¡Hola, soy Houjou Sxnnyside! ✨</h1>
 
 <p align="center">
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW9zYTZ4N2llOWJmbDM1cms4OTEybGtka3Q0ODY0eGVwZ3JlaHRqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nFLW7PNGgN3lI68rdv/giphy.gif" alt="Gif" width="300" height="250">
@@ -8,7 +8,7 @@
 
 ### 🌸 Sobre mí 🌸
 
-- 🔭 **Actualmente trabajando en:** [Sxnnyside Proyect](https://github.com/Sxnnyside-Project
+- 🔭 **Actualmente trabajando en:** [Sxnnyside Proyect](https://github.com/Sxnnyside-Project)
 - 🌱 **Aprendiendo:** Diseño de aplicaciones de interfaz y desarrollo full-stack.
 - 👯 **Buscando colaborar en:** Aplicaciones con interfaces interactivas y funcionales.
 - 💬 **Pregúntame sobre:** Desarrollo móvil, diseño de UI/UX o mis videojuegos favoritos.
