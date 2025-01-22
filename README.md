@@ -1,7 +1,7 @@
 <h1 align="center" style="color: #FF69B4;">✨ Hola, soy Houjou Sxnnyside! ✨</h1>
 
 <p align="center">
-  <img src="[https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDA0MWU2NDQ1ZjRjM2I5MTgwYWI2NWI2NjlhNmZjODQ0NGIxOTlkZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/giphy.gif](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW9zYTZ4N2llOWJmbDM1cms4OTEybGtka3Q0ODY0eGVwZ3JlaHRqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nFLW7PNGgN3lI68rdv/giphy.gif)" alt="Gif" width="300" height="200">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW9zYTZ4N2llOWJmbDM1cms4OTEybGtka3Q0ODY0eGVwZ3JlaHRqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nFLW7PNGgN3lI68rdv/giphy.gif" alt="Gif" width="300" height="250">
 </p>
 
 ---
@@ -34,7 +34,6 @@ Usualmente no hago repositorios publicos, solamente para [Sxnnyside Project](htt
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=HoujouSxnnyside&show_icons=true&theme=tokyonight" alt="Estadísticas de GitHub" width="400">
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=HoujouSxnnyside&theme=cobalt&locale=es" alt="GitHub Streak" /></a>
 </div>
 
 ---
