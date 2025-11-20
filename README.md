@@ -1,64 +1,124 @@
-<h1 align="center">👁️‍🗨️ Houjou Sxnnyside</h1>
-<p align="center">
-  <em>Creacionista de realidades interactivas, cultor del diseño bonito y dev sin repos públicos decentes (on purpose)</em>
+# 👁️‍🗨️ Houjou Sxnnyside
+
+<p align="center"><em>Architect of systems. Curator of silence. Programador que construye herramientas como si fueran artefactos prohibidos.</em></p>
+
+---
+
+## 🜂 Premisa
+
+> *No hago software para llamar la atención. Hago software que se sostiene solo.*
+
+<img alt="Sxnnyside Project" src="https://img.shields.io/badge/Sxnnyside%20Ecosystem-Active-6e56cf?style=flat-square" />
+
+Mi perfil no es un catálogo: es un registro fragmentado de lo que puedo mostrar.
+El resto vive detrás de firewalls, NDA personales y arquitectura propia.
+
+Me muevo entre stacks con precisión, estética y propósito.
+
+### ⚙️ Lenguajes y herramientas
+
+<!-- FRONTEND -->
+<p>
+  <strong>Frontend</strong><br>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,tauri,flutter,materialui,tailwind,figma&theme=dark" />
 </p>
 
-<p align="center">
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW9zYTZ4N2llOWJmbDM1cms4OTEybGtka3Q0ODY0eGVwZ3JlaHRqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nFLW7PNGgN3lI68rdv/giphy.gif" alt="Sxnnyside Loop" width="260" />
+<!-- BACKEND + INFRA -->
+<p>
+  <strong>Backend & Infra</strong><br>
+  <img src="https://skillicons.dev/icons?i=supabase,postgres,sqlite,php,prisma,nodejs,bun,azure&theme=dark" />
 </p>
 
----
-
-### 🧬 Manifesto
-
-> *Mis mejores proyectos están ocultos. Pero si ves esto, es porque algo se está gestando.*
-
-Yo soy quien construye experiencias más que aplicaciones. Trabajo en la oscuridad para lanzar luz en [Patreon 🔗](https://www.patreon.com/SxnnysideProject), donde libero lo mejor: ejecutables pulidos, software cute con alma, y widgets que no sabías que necesitabas.
-
-- 🧠 Mobile-first, pero con cerebro: Swift, Jetpack Compose y un toque de Flutter.
-- 🛠️ UI/UX con intención: interfaces que te invitan a tocar, explorar, quedarte.
-- 🧃 No hago open-source por deporte. Lo que subo, sube por una razón.
-
----
-
-### 🧩 Lo Público (pero funcional)
-
-Estos proyectos son la punta del iceberg:
-
-🔧 [client-server-4-students](https://github.com/HoujouSxnnyside/client-server-4-students)  
-🎮 [MC-AutomaticPackage](https://github.com/HoujouSxnnyside/MC-AutomaticPackage)
-
-...y todo lo serio está [aquí](https://github.com/Sxnnyside-Project) o detrás del telón 🎭
-
----
-
-### 🔐 Sxnnyside Project
-
-> Aplicaciones extrañas, widgets brillantes, utilidades que hacen cosas que no sabías que tu escritorio podía hacer.
-
-👁️ [Patreon](https://www.patreon.com/SxnnysideProject)  
-📂 Repos privados con cariño  
-🐱 Cosas como **Kitty Calendar** y más en constante desarrollo 
-
----
-
-### 🔮 Estadísticas (porque el algoritmo quiere saber)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HoujouSxnnyside&show_icons=true&theme=tokyonight" width="400">
+<!-- JAVASCRIPT FRAMEWORKS -->
+<p>
+  <strong>JavaScript Frameworks & Tooling</strong><br>
+  <img src="https://skillicons.dev/icons?i=react,electron,elysia,deno,discordjs,webpack&theme=dark" />
 </p>
 
+<!-- PROGRAMMING LANGUAGES -->
+<p>
+  <strong>Lenguajes</strong><br>
+  <img src="https://skillicons.dev/icons?i=swift,cpp,cs,java,kotlin,python,php,dart,ruby,ts,dotnet,rust&theme=dark" />
+</p>
 
----
-
-### 🌐 Encuéntrame
-
-<p align="center">
-  <a href="https://www.instagram.com/houjou_sxnny"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>  
-  <a href="https://x.com/Jou_Sxnnyside"><img src="https://img.shields.io/badge/X (Twitter)-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a>  
-  <a href="https://www.patreon.com/SxnnysideProject"><img src="https://img.shields.io/badge/Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>  
+<!-- EXTRA KNOWLEDGE -->
+<p>
+  <strong>Otros</strong><br>
+  <img src="https://skillicons.dev/icons?i=cmake,latex,obsidian,notion,svg,tensorflow,gradle,postman&theme=dark" />
 </p>
 
 ---
 
-<p align="center"><em>"Gracias por pasar. No olvides cerrar la puerta del rabbit hole al salir."</em> 🌀</p>
+## 🜁 Sxnnyside Project
+
+Mi laboratorio principal.
+Donde las ideas se convierten en software pulido, usable, estable y con intención real.
+
+* 🔗 Patreon: [https://www.patreon.com/SxnnysideProject](https://www.patreon.com/SxnnysideProject)
+* 🧱 Ecosistema privado con herramientas, apps, utilidades, widgets y software de escritorio
+* 📦 Proyectos del Sxnnyside Project:
+
+  * [SxnnyUI](https://github.com/Sxnnyside-Project/SxnnyUI) - Framework de componentes y extensiones optimizadas para interfaces en SwiftUI.
+  * [Computtite](https://www.patreon.com/posts/computtite-v1-2-133079725) - Aplicacion de escritorio para gestión de dispositivos electrónicos.
+  * [Streamline]() - Plataforma de Aplicaciones Empresariales.
+  * [KittyCalendar](https://www.patreon.com/posts/kitty-calendar-0-132003606) - Widget de escritorio de calendario.
+
+---
+
+## 🜄 CoreRed Project
+
+La zona roja del ecosistema.
+Aquí no hay adornos. Solo ingeniería directa, lenguajes propios, automatización profunda y software que no debería ser tan consciente.
+
+* 🔥 Lugar de nacimiento del lenguaje **Luna**, **Obfusku** y **Syntaxeon**.
+* 🧩 Repos private-source que viven en su propia sombra
+* 📂 Herramientas del CoreRed Project:
+
+  * [Obfusku]() - Lenguaje esoterico basado en simbolos no ascii
+  * [Syntaxeon]() - Lenguaje esoterico basado en organizacion poetica con sintaxis declarativa variable.
+  * [TensorSuggestLite](https://github.com/HoujouSxnnyside/TensorSuggestLite) - Aplicacion para generar modelos TensorFlowLite a traves de archivos JSON, YAML, TOML.
+
+---
+
+## 🔷 Sxnnyside Scholarship
+
+Material, utilidades y apps creadas para entender, enseñar y explorar la arquitectura del ecosistema.
+
+* 🧭 Proyectos del Sxnnyside Scholarship Project:
+
+  * [Promediatus]() - Aplicacion de escritorio para recoleccion de calificaciones y calculo de promedios.
+  * [Bubble Catcher]() - Aplicacion de escritorio para prueba segura, aprendizaje y optimizacion de consultas SQL.
+  * [Client-Server 4 Students]() - Aplicacion FTP que permite crear un servidor y varios clientes para aprendizaje.
+
+---
+
+## 📊 Stats
+
+<p align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=HoujouSxnnyside&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" 
+    width="430" 
+  />
+</p>
+
+<p align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=HoujouSxnnyside&layout=compact&theme=tokyonight&hide_border=true" 
+    width="330" 
+  />
+</p>
+
+
+---
+
+## 🌐 Contacto
+
+<p align="center">
+  <a href="https://www.instagram.com/houjou_sxnny"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+  <a href="https://x.com/Jou_Sxnnyside"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"></a>
+  <a href="https://www.patreon.com/SxnnysideProject"><img src="https://img.shields.io/badge/Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>
+</p>
+
+---
+
+<p align="center"><em>"El repositorio es público. Las intenciones no."</em></p>
