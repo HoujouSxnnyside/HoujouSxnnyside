@@ -20,31 +20,31 @@ Me muevo entre stacks con precisión, estética y propósito.
 <!-- FRONTEND -->
 <p>
   <strong>Frontend</strong><br>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,tauri,flutter,materialui,tailwind,figma&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=html,css,tauri,nextjs,flutter,materialui,tailwind&theme=dark" />
 </p>
 
 <!-- BACKEND + INFRA -->
 <p>
   <strong>Backend & Infra</strong><br>
-  <img src="https://skillicons.dev/icons?i=supabase,postgres,sqlite,php,prisma,nodejs,bun,azure&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=postgres,sqlite,mysql,dynamodb,nodejs,bun,deno,prisma,supabase,azure&theme=dark" />
 </p>
 
 <!-- JAVASCRIPT FRAMEWORKS -->
 <p>
   <strong>JavaScript Frameworks & Tooling</strong><br>
-  <img src="https://skillicons.dev/icons?i=react,electron,elysia,deno,discordjs,webpack&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=react,electron,express,nestjs,elysia,discordjs,threejs,webpack,jquery&theme=dark" />
 </p>
 
 <!-- PROGRAMMING LANGUAGES -->
 <p>
   <strong>Lenguajes</strong><br>
-  <img src="https://skillicons.dev/icons?i=swift,cpp,cs,java,kotlin,python,php,dart,ruby,ts,dotnet,rust&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=swift,cpp,cs,java,kotlin,python,php,dart,ruby,js,ts,dotnet,rust&theme=dark" />
 </p>
 
 <!-- EXTRA KNOWLEDGE -->
 <p>
   <strong>Otros</strong><br>
-  <img src="https://skillicons.dev/icons?i=cmake,latex,obsidian,notion,svg,tensorflow,gradle,postman&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=cmake,latex,obsidian,notion,svg,tensorflow,gradle,postman,figma&theme=dark" />
 </p>
 
 ---
