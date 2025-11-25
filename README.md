@@ -44,9 +44,8 @@ Me muevo entre stacks con precisión, estética y propósito.
 <!-- EXTRA KNOWLEDGE -->
 <p>
   <strong>Otros</strong><br>
-  <img src="https://skillicons.dev/icons?i=cmake,latex,obsidian,notion,svg,tensorflow,gradle,postman,figma&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=cmake,latex,obsidian,notion,svg,tensorflow,gradle,postman,figma,ubuntu&theme=dark" />
 </p>
-
 ---
 
 ## 🜁 Sxnnyside Project
