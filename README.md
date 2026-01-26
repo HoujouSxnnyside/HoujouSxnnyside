@@ -1,123 +1,176 @@
-# 👁️‍🗨️ Houjou Sxnnyside
+<!-- ===============================
+     HOUJOU SXNNYSIDE · README v2.0
+     =============================== -->
 
-<p align="center"><em>Architect of systems. Curator of silence. Programador que construye herramientas como si fueran artefactos prohibidos.</em></p>
+<h1 align="center">
+  ◉ Houjou Sxnnyside
+</h1>
 
----
-
-## 🜂 Premisa
-
-> *No hago software para llamar la atención. Hago software que se sostiene solo.*
-
-<img alt="Sxnnyside Project" src="https://img.shields.io/badge/Sxnnyside%20Ecosystem-Active-6e56cf?style=flat-square" />
-
-Mi perfil no es un catálogo: es un registro fragmentado de lo que puedo mostrar.
-El resto vive detrás de firewalls, NDA personales y arquitectura propia.
-
-Me muevo entre stacks con precisión, estética y propósito.
-
-### ⚙️ Lenguajes y herramientas
-
-<!-- FRONTEND -->
-<p>
-  <strong>Frontend</strong><br>
-  <img src="https://skillicons.dev/icons?i=html,css,tauri,nextjs,flutter,materialui,tailwind&theme=dark" />
+<p align="center">
+  <em>
+    Systems architect · Toolmaker ·  
+    Diseña software que no pide permiso
+  </em>
 </p>
 
-<!-- BACKEND + INFRA -->
-<p>
-  <strong>Backend & Infra</strong><br>
-  <img src="https://skillicons.dev/icons?i=postgres,sqlite,mysql,dynamodb,nodejs,bun,deno,prisma,supabase,azure&theme=dark" />
+<p align="center">
+  <sub>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub>
 </p>
 
-<!-- JAVASCRIPT FRAMEWORKS -->
-<p>
-  <strong>JavaScript Frameworks & Tooling</strong><br>
-  <img src="https://skillicons.dev/icons?i=react,electron,express,nestjs,elysia,discordjs,threejs,webpack,jquery&theme=dark" />
+<!-- ===============================
+     MANIFEST
+     =============================== -->
+
+<h3 align="center">
+  ▲ Manifest
+</h3>
+
+<p align="center">
+No construyo productos para llamar la atención.<br/>
+Construyo sistemas que siguen en pie cuando el ruido desaparece.
 </p>
 
-<!-- PROGRAMMING LANGUAGES -->
-<p>
-  <strong>Lenguajes</strong><br>
+<p align="center">
+Este perfil es un fragmento.<br/>
+Lo esencial no vive en repositorios públicos.
+</p>
+
+<!-- ===============================
+     STATUS
+     =============================== -->
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Sxnnyside%20Ecosystem-Active-6e56cf?style=flat-square" />
+</p>
+
+<!-- ===============================
+     ARSENAL
+     =============================== -->
+
+<h3 align="center">
+  ✦ Arsenal
+</h3>
+
+<p align="center">
+No es una lista.<br/>
+Es el conjunto de herramientas que toleran decisiones reales.
+</p>
+
+<!-- CORE STACK -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,tauri,nextjs,flutter,materialui,tailwind,react,electron,threejs&theme=dark" />
+</p>
+
+<!-- BACKEND · DATA · RUNTIME -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,bun,deno,express,nestjs,elysia,discordjs,postgres,sqlite,mysql,dynamodb,prisma,supabase,azure&theme=dark" />
+</p>
+
+<!-- LANGUAGES -->
+<p align="center">
   <img src="https://skillicons.dev/icons?i=swift,cpp,cs,java,kotlin,python,php,dart,ruby,js,ts,dotnet,rust&theme=dark" />
 </p>
 
-<!-- EXTRA KNOWLEDGE -->
-<p>
-  <strong>Otros</strong><br>
-  <img src="https://skillicons.dev/icons?i=cmake,latex,obsidian,notion,svg,tensorflow,gradle,postman,figma,ubuntu&theme=dark" />
+<!-- TOOLING · INFRA · EXTRA -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cmake,gradle,webpack,jquery,tensorflow,latex,svg,figma,postman,obsidian,notion,ubuntu&theme=dark" />
 </p>
----
-
-## 🜁 Sxnnyside Project
-
-Mi laboratorio principal.
-Donde las ideas se convierten en software pulido, usable, estable y con intención real.
-
-* 🔗 Patreon: [https://www.patreon.com/SxnnysideProject](https://www.patreon.com/SxnnysideProject)
-* 🧱 Ecosistema privado con herramientas, apps, utilidades, widgets y software de escritorio
-* 📦 Proyectos del Sxnnyside Project:
-
-  * [SxnnyUI](https://github.com/Sxnnyside-Project/SxnnyUI) - Framework de componentes y extensiones optimizadas para interfaces en SwiftUI.
-  * [Computtite](https://www.patreon.com/posts/computtite-v1-2-133079725) - Aplicacion de escritorio para gestión de dispositivos electrónicos.
-  * [Streamline]() - Plataforma de Aplicaciones Empresariales.
-  * [KittyCalendar](https://www.patreon.com/posts/kitty-calendar-0-132003606) - Widget de escritorio de calendario.
-
----
-
-## 🜄 CoreRed Project
-
-La zona roja del ecosistema.
-Aquí no hay adornos. Solo ingeniería directa, lenguajes propios, automatización profunda y software que no debería ser tan consciente.
-
-* 🔥 Lugar de nacimiento del lenguaje **Luna**, **Obfusku** y **Syntaxeon**.
-* 🧩 Repos private-source que viven en su propia sombra
-* 📂 Herramientas del CoreRed Project:
-
-  * [Obfusku]() - Lenguaje esoterico basado en simbolos no ascii
-  * [Syntaxeon]() - Lenguaje esoterico basado en organizacion poetica con sintaxis declarativa variable.
-  * [TensorSuggestLite](https://github.com/HoujouSxnnyside/TensorSuggestLite) - Aplicacion para generar modelos TensorFlowLite a traves de archivos JSON, YAML, TOML.
-
----
-
-## 🔷 Sxnnyside Scholarship
-
-Material, utilidades y apps creadas para entender, enseñar y explorar la arquitectura del ecosistema.
-
-* 🧭 Proyectos del Sxnnyside Scholarship Project:
-
-  * [Promediatus]() - Aplicacion de escritorio para recoleccion de calificaciones y calculo de promedios.
-  * [Bubble Catcher]() - Aplicacion de escritorio para prueba segura, aprendizaje y optimizacion de consultas SQL.
-  * [Client-Server 4 Students]() - Aplicacion FTP que permite crear un servidor y varios clientes para aprendizaje.
-
----
-
-## 📊 Stats
 
 <p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=HoujouSxnnyside&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" 
-    width="430" 
+  <sub>
+    Interfaces · runtimes · lenguajes · datos · tooling · infraestructura
+  </sub>
+</p>
+
+<!-- ===============================
+     FACTIONS
+     =============================== -->
+
+<h3 align="center">
+  ◼ Ecosystem
+</h3>
+
+<table align="center">
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Sxnnyside Project</strong><br/>
+      <sub>
+        Laboratorio principal.<br/>
+        Software pulido, usable y diseñado para durar.
+      </sub>
+    </td>
+    <td width="33%" valign="top">
+      <strong>CoreRed</strong><br/>
+      <sub>
+        Zona roja.<br/>
+        Lenguajes propios, automatización profunda, zero concesiones.
+      </sub>
+    </td>
+    <td width="33%" valign="top">
+      <strong>Sxnnyside Scholarship</strong><br/>
+      <sub>
+        Proyectos didácticos.<br/>
+        Aprender diseccionando sistemas reales.
+      </sub>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <sub>
+    La mayoría de estos sistemas no están listados.<br/>
+    No es un descuido. Es diseño.
+  </sub>
+</p>
+
+<!-- ===============================
+     SIGNALS
+     =============================== -->
+
+<h3 align="center">
+  ─ External Signals
+</h3>
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=HoujouSxnnyside&show_icons=true&theme=tokyonight&hide_border=true"
+    width="420"
   />
 </p>
 
 <p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=HoujouSxnnyside&layout=compact&theme=tokyonight&hide_border=true" 
-    width="330" 
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=HoujouSxnnyside&layout=compact&theme=tokyonight&hide_border=true"
+    width="320"
   />
 </p>
 
+<!-- ===============================
+     CONTACT
+     =============================== -->
 
----
-
-## 🌐 Contacto
+<h3 align="center">
+  ◎ Access
+</h3>
 
 <p align="center">
-  <a href="https://www.instagram.com/houjou_sxnny"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-  <a href="https://x.com/Jou_Sxnnyside"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"></a>
-  <a href="https://www.patreon.com/SxnnysideProject"><img src="https://img.shields.io/badge/Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>
+  <a href="https://www.sxnnysideproject.com">Portfolio</a> ·
+  <a href="https://www.patreon.com/SxnnysideProject">Patreon</a>
 </p>
 
----
+<!-- ===============================
+     CLOSING
+     =============================== -->
 
-<p align="center"><em>"El repositorio es público. Las intenciones no."</em></p>
+<p align="center">
+  <svg width="220" height="1" viewBox="0 0 220 1">
+    <line x1="0" y1="0" x2="220" y2="0" stroke="#2f2f3a"/>
+  </svg>
+</p>
+
+<p align="center">
+  <em>
+    El repositorio es público.<br/>
+    El sistema no.
+  </em>
+</p>
