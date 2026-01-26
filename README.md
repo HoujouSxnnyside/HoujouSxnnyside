@@ -128,7 +128,7 @@ Es el conjunto de herramientas que toleran decisiones reales.
      =============================== -->
 
 <h3 align="center">
-  ─ External Signals
+  ─ Telemetry
 </h3>
 
 <p align="center">
@@ -150,7 +150,7 @@ Es el conjunto de herramientas que toleran decisiones reales.
      =============================== -->
 
 <h3 align="center">
-  ◎ Access
+  ◎ Public Interface
 </h3>
 
 <p align="center">
@@ -163,9 +163,7 @@ Es el conjunto de herramientas que toleran decisiones reales.
      =============================== -->
 
 <p align="center">
-  <svg width="220" height="1" viewBox="0 0 220 1">
-    <line x1="0" y1="0" x2="220" y2="0" stroke="#2f2f3a"/>
-  </svg>
+  <sub>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub>
 </p>
 
 <p align="center">
