@@ -1,174 +1,131 @@
-<!-- ===============================
-     HOUJOU SXNNYSIDE · README v2.0
-     =============================== -->
+<!--
+This README is intentional.
+Structure matters.
+-->
 
-<h1 align="center">
-  ◉ Houjou Sxnnyside
-</h1>
+<div align="center">
+  <img src="Banner.png" width="100%" />
+  
+  # Houjou Sxnnyside
+  
+  ### Creative Product Architect · Systems Designer
+  
+  _Software As An Experience_
+</div>
+
+---
+
+> [!NOTE]
+> I design digital systems with identity.  
+> Not just apps. Not just code.  
+> Structured experiences.
+
+---
+
+## 🧠 How I Build
+
+I think in systems.
+
+Structure first.
+Interaction second.
+Implementation with intent.
+Polish until it feels inevitable.
+
+I don’t chase trends.
+I compose solutions.
+
+Some projects scale wide.  
+Some go deep into one specific need.
+
+Both are valid — when intentional.
+
+---
+
+## 🌌 The Ecosystem
+
+All branches share the same design DNA,  
+but each serves a different audience.
+
+| Branch | Focus | URL |
+|--------|-------|-----|
+| **Sxnnyside Project** | Main software line | [Website](https://www.sxnnysideproject.com) |
+| **Devil Doll Entertainment** | Games & interactive worlds |  *In development*  |
+| **Core Red** | Internal & experimental systems | [Website](https://houjousxnnyside.github.io/core-red-website/) |
+| **Sxnnyside Scholarships** | Educational breakdowns | [Website](https://houjousxnnyside.github.io/scholarships-website/) |
+| **Crown Red** | Literary expansion |  *In development*  |
+| **GhostBox Records** | Music & audio identity |  *In development*  |
+| **Fracture Labs** | Physical extensions | [Page](https://www.instagram.com/fracture.labs.mx) |
+
+Different layer.  
+Same foundation.
+
+---
+
+## 🛠 Technical Stack
+
+Curated. Not decorative.
 
 <p align="center">
-  <em>
-    Systems architect · Toolmaker ·  
-    Diseña software que no pide permiso
-  </em>
+  <img src="https://skillicons.dev/icons?i=rust,ts,flutter,php,cs,nodejs,bun,deno,supabase,postgres&theme=dark" />
 </p>
 
-<p align="center">
-  <sub>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub>
-</p>
+The stack adapts to the architecture.  
+Not the other way around.
 
-<!-- ===============================
-     MANIFEST
-     =============================== -->
+Each tool here earned its place.
 
-<h3 align="center">
-  ▲ Manifest
-</h3>
+Different problems require different architectures.
+This stack reflects that.
 
-<p align="center">
-No construyo productos para llamar la atención.<br/>
-Construyo sistemas que siguen en pie cuando el ruido desaparece.
-</p>
+---
 
-<p align="center">
-Este perfil es un fragmento.<br/>
-Lo esencial no vive en repositorios públicos.
-</p>
+<details>
+<summary>📎 Previous Eras</summary>
 
-<!-- ===============================
-     STATUS
-     =============================== -->
+Java and Kotlin were part of the native-first phase.  
+LaTeX belonged to the academic systems stage.
+Static HTML pages without frameworks.
+Material Design Apps without proper design system.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Sxnnyside%20Ecosystem-Active-6e56cf?style=flat-square" />
-</p>
+Evolution is part of system design.
 
-<!-- ===============================
-     ARSENAL
-     =============================== -->
+</details>
 
-<h3 align="center">
-  ✦ Arsenal
-</h3>
+---
 
-<p align="center">
-No es una lista.<br/>
-Es el conjunto de herramientas que toleran decisiones reales.
-</p>
+## 🧩 What Stays Constant
 
-<!-- CORE STACK -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,tauri,nextjs,flutter,materialui,tailwind,react,electron,threejs&theme=dark" />
-</p>
+- Refined UX
+- Specialized design systems
+- Clear hierarchy
+- Solutions that go deep
+- Identity-driven products
+- At least one project for every audience layer
 
-<!-- BACKEND · DATA · RUNTIME -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,bun,deno,express,nestjs,elysia,discordjs,postgres,sqlite,mysql,dynamodb,prisma,supabase,azure&theme=dark" />
-</p>
+---
 
-<!-- LANGUAGES -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=swift,cpp,cs,java,kotlin,python,php,dart,ruby,js,ts,dotnet,rust&theme=dark" />
-</p>
+## 💭 Philosophy
 
-<!-- TOOLING · INFRA · EXTRA -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cmake,gradle,webpack,jquery,tensorflow,latex,svg,figma,postman,obsidian,notion,ubuntu&theme=dark" />
-</p>
+> Software should feel authored.
 
-<p align="center">
+Not assembled.  
+Not stitched.  
+Authored.
+
+---
+
+## 🟣 Support the Studio
+
+<div align="center">
+
+[![Support on Patreon](https://img.shields.io/badge/Support-Patreon-8E44FF?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/SxnnysideProject)
+
+</div>
+
+---
+
+<div align="center">
   <sub>
-    Interfaces · runtimes · lenguajes · datos · tooling · infraestructura
+    Design with identity. Build with structure.
   </sub>
-</p>
-
-<!-- ===============================
-     FACTIONS
-     =============================== -->
-
-<h3 align="center">
-  ◼ Ecosystem
-</h3>
-
-<table align="center">
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Sxnnyside Project</strong><br/>
-      <sub>
-        Laboratorio principal.<br/>
-        Software pulido, usable y diseñado para durar.
-      </sub>
-    </td>
-    <td width="33%" valign="top">
-      <strong>CoreRed</strong><br/>
-      <sub>
-        Zona roja.<br/>
-        Lenguajes propios, automatización profunda, zero concesiones.
-      </sub>
-    </td>
-    <td width="33%" valign="top">
-      <strong>Sxnnyside Scholarship</strong><br/>
-      <sub>
-        Proyectos didácticos.<br/>
-        Aprender diseccionando sistemas reales.
-      </sub>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <sub>
-    La mayoría de estos sistemas no están listados.<br/>
-    No es un descuido. Es diseño.
-  </sub>
-</p>
-
-<!-- ===============================
-     SIGNALS
-     =============================== -->
-
-<h3 align="center">
-  ─ Telemetry
-</h3>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=HoujouSxnnyside&show_icons=true&theme=tokyonight&hide_border=true"
-    width="420"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=HoujouSxnnyside&layout=compact&theme=tokyonight&hide_border=true"
-    width="320"
-  />
-</p>
-
-<!-- ===============================
-     CONTACT
-     =============================== -->
-
-<h3 align="center">
-  ◎ Public Interface
-</h3>
-
-<p align="center">
-  <a href="https://www.sxnnysideproject.com">Portfolio</a> ·
-  <a href="https://www.patreon.com/SxnnysideProject">Patreon</a>
-</p>
-
-<!-- ===============================
-     CLOSING
-     =============================== -->
-
-<p align="center">
-  <sub>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub>
-</p>
-
-<p align="center">
-  <em>
-    El repositorio es público.<br/>
-    El sistema no.
-  </em>
-</p>
+</div>
