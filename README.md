@@ -1,120 +1,82 @@
-<!--
-This README is intentional.
-Structure matters.
+<!-- 
+what are you looking for? that's weird... uwu ✨
 -->
 
 <div align="center">
-  <img src="Banner.png" width="100%" />
+  <img src="Banner.png" width="90%" /> 
   
-  # Houjou Sxnnyside
+  ## ✦ Making things feel alive
   
-  ### Creative Product Architect · Systems Designer
+  A little chaotic, a little かわいい 🐰✨  
+  systems underneath, always intentional
   
-  _Software As An Experience_
 </div>
 
 ---
 
-> [!NOTE]
-> I design digital systems with identity.  
-> Not just apps. Not just code.  
-> Structured experiences.
+## 🧃 About this space
+
+I build systems, but not the usual kind ✦  
+a mix of code, design, and weird ideas that somehow work
+
+Some are clean. Some are chaotic.  
+All of them are intentional (たぶん)
+
+I don’t follow trends ✨  
+I experiment, break things, and rebuild them better
+
+Everything here is part of something bigger  
+even if it doesn’t look like it yet
 
 ---
 
-## 🧠 How I Build
+## 🧠 Systems I Use ✦
 
-I think in systems.
-
-Structure first.
-Interaction second.
-Implementation with intent.
-Polish until it feels inevitable.
-
-I don’t chase trends.
-I compose solutions.
-
-Some projects scale wide.  
-Some go deep into one specific need.
-
-Both are valid — when intentional.
-
----
-
-## 🌌 The Ecosystem
-
-All branches share the same design DNA,  
-but each serves a different audience.
-
-| Branch | Focus | URL |
-|--------|-------|-----|
-| **Sxnnyside Project** | Main software line | [Website](https://www.sxnnysideproject.com) |
-| **Devil Doll Entertainment** | Games & interactive worlds |  *In development*  |
-| **Core Red** | Internal & experimental systems | [Website](https://houjousxnnyside.github.io/core-red-website/) |
-| **Sxnnyside Scholarships** | Educational breakdowns | [Website](https://houjousxnnyside.github.io/scholarships-website/) |
-| **Crown Red** | Literary expansion |  *In development*  |
-| **GhostBox Records** | Music & audio identity |  *In development*  |
-| **Fracture Labs** | Physical extensions | [Page](https://www.instagram.com/fracture.labs.mx) |
-
-Different layer.  
-Same foundation.
-
----
-
-## 🛠 Technical Stack
-
-Curated. Not decorative.
+Not decorative. Not random.  
+Just tools that earned their place かわいい✨
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,ts,flutter,php,cs,nodejs,bun,deno,supabase,postgres&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=rust,ts,flutter,php,cs,bun,deno,supabase,postgres&theme=dark" />
 </p>
 
-The stack adapts to the architecture.  
+The stack adapts to the idea.  
 Not the other way around.
 
-Each tool here earned its place.
+Some tools stayed.  
+Some didn’t survive.
 
-Different problems require different architectures.
-This stack reflects that.
-
----
-
-<details>
-<summary>📎 Previous Eras</summary>
-
-Java and Kotlin were part of the native-first phase.  
-LaTeX belonged to the academic systems stage.
-Static HTML pages without frameworks.
-Material Design Apps without proper design system.
-
-Evolution is part of system design.
-
-</details>
+Everything evolves — that’s part of the system.
 
 ---
 
-## 🧩 What Stays Constant
+## 🧩 What Never Changes ✦
 
-- Refined UX
-- Specialized design systems
-- Clear hierarchy
-- Solutions that go deep
-- Identity-driven products
-- At least one project for every audience layer
+Clean structure.  
+Clear hierarchy.  
+Systems that go deep.
+
+Design that feels intentional 🐰✨  
+Not assembled. Not random.
+
+Some things get rebuilt.  
+Some get replaced.
+
+But the core always stays.
 
 ---
 
-## 💭 Philosophy
+## ✦ Philosophy
 
-> Software should feel authored.
+Software should feel authored かわいい✨  
 
 Not assembled.  
 Not stitched.  
+
 Authored.
 
 ---
 
-## 🟣 Support the Studio
+## 🟣 Support the chaos ✦
 
 <div align="center">
 
@@ -122,10 +84,14 @@ Authored.
 
 </div>
 
+<div align="center">
+  A small way to keep these strange systems alive 🧃✨
+</div>
+
 ---
 
 <div align="center">
   <sub>
-    Design with identity. Build with structure.
+    Built with structure. Dressed in chaos ✦
   </sub>
 </div>
