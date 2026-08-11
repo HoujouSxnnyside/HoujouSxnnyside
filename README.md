@@ -45,7 +45,6 @@ Just tools that earned their place かわいい✨
 **PHP** — it's still here. it still works. respect.  
 **C#** — when the runtime demands it  
 **Bun** — fast by default, no negotiation  
-**Deno** — TypeScript without the setup tax  
 **Supabase** — infrastructure that stays out of the way  
 **PostgreSQL** — the one that never disappoints
 
@@ -75,11 +74,11 @@ But the core always stays.
 
 ## ✦ Active Systems
 
-| Project | Branch | What it does |
-|---|---|---|
-| [PsychoQuine](https://github.com/Sxnnyside-Project/Psychoquine) | SP | Universal Quine generator — any text, self-replicating |
-| [orph-cli](https://github.com/CoreRed-Project/orph-cli) | CoreRed | Offline-first CLI harness for Raspberry Pi |
-| [Pollux · Native Bridge](https://github.com/HoujouSxnnyside/Pollux-Polyglot-Native-Bridge) | Pollux | Sovereign boundary between Pollux and external ecosystems |
+| Project                                                                                    | Branch  | What it does                                              |
+| ------------------------------------------------------------------------------------------ | ------- | --------------------------------------------------------- |
+| [Computtite](https://github.com/Sxnnyside-Project/Computtite)                              | SP      | IT asset management system                                |
+| [Animoria](https://github.com/Sxnnyside-Project/Animoria)                                  | SP      | Visual asset governance for developers                    |
+| [SxnnyErgo](https://github.com/Sxnnyside-Project/SxnnyErgo)                                | SP      | Developer ergonomics system for Swift                     |
 
 ---
 
