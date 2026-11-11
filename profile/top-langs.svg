@@ -1,205 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 215" width="460" height="215">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0416" />
+      <stop offset="50%" stop-color="#120824" />
+      <stop offset="100%" stop-color="#1c0b38" />
+    </linearGradient>
 
-      <svg
-        width="300"
-        height="140"
-        viewBox="0 0 300 140"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        role="img"
-        aria-labelledby="descId"
-      >
-        <title id="titleId"></title>
-        <desc id="descId"></desc>
-        <style>
-          .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #8E44FF;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
-          }
-          @supports(-moz-appearance: auto) {
-            /* Selector detects Firefox */
-            .header { font-size: 15.5px; }
-          }
-          
-    @keyframes slideInAnimation {
-      from {
-        width: 0;
-      }
-      to {
-        width: calc(100%-100px);
-      }
-    }
-    @keyframes growWidthAnimation {
-      from {
-        width: 0;
-      }
-      to {
-        width: 100%;
-      }
-    }
-    .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #ffffff;
-    }
-    @supports(-moz-appearance: auto) {
-      /* Selector detects Firefox */
-      .stat { font-size:12px; }
-    }
-    .bold { font-weight: 700 }
-    .lang-name {
-      font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #ffffff;
-    }
-    .stagger {
-      opacity: 0;
-      animation: fadeInAnimation 0.3s ease-in-out forwards;
-    }
-    #rect-mask rect{
-      animation: slideInAnimation 1s ease-in-out forwards;
-    }
-    .lang-progress{
-      animation: growWidthAnimation 0.6s ease-in-out forwards;
-    }
-    
+    <!-- Language Colors -->
+    <linearGradient id="tsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="100%" stop-color="#00b4d8" />
+    </linearGradient>
+    <linearGradient id="rustGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff79c6" />
+      <stop offset="100%" stop-color="#ff5ea8" />
+    </linearGradient>
+    <linearGradient id="dartGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#7928ca" />
+    </linearGradient>
+    <linearGradient id="otherGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffe66d" />
+      <stop offset="100%" stop-color="#ff8e3c" />
+    </linearGradient>
 
-          
-      /* Animations */
-      @keyframes scaleInAnimation {
-        from {
-          transform: translate(-5px, 5px) scale(0);
-        }
-        to {
-          transform: translate(-5px, 5px) scale(1);
-        }
+    <!-- Scanline Pattern -->
+    <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#00f5d4" stroke-width="0.75" stroke-opacity="0.04" />
+    </pattern>
+
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.9; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.96); }
       }
-      @keyframes fadeInAnimation {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-    
-          
-        </style>
+      .pulsing { animation: pulse 2.4s infinite ease-in-out; }
+    </style>
+  </defs>
 
-        
+  <!-- Card Background -->
+  <rect x="2" y="2" width="456" height="211" rx="16" fill="url(#bgGrad)" stroke="#00f5d4" stroke-width="1.4" stroke-opacity="0.8" />
+  <rect x="2" y="2" width="456" height="211" rx="16" fill="url(#scanlines)" />
+  <rect x="5" y="5" width="450" height="205" rx="13" fill="none" stroke="#bd93f9" stroke-width="0.6" stroke-dasharray="4,4" stroke-opacity="0.3" />
 
-        <rect
-          data-testid="card-bg"
-          x="0.5"
-          y="0.5"
-          rx="4.5"
-          height="99%"
-          stroke="#e4e2e2"
-          width="299"
-          fill="#0D1117"
-          stroke-opacity="0"
-        />
+  <!-- Corner Accents -->
+  <path d="M 8 18 L 8 8 L 18 8" stroke="#ff79c6" stroke-width="2" fill="none" />
+  <path d="M 452 18 L 452 8 L 442 8" stroke="#00f5d4" stroke-width="2" fill="none" />
+  <path d="M 8 197 L 8 207 L 18 207" stroke="#00f5d4" stroke-width="2" fill="none" />
+  <path d="M 452 197 L 452 207 L 442 207" stroke="#ff79c6" stroke-width="2" fill="none" />
 
-        
-      <g
-        data-testid="card-title"
-        transform="translate(25, 35)"
-      >
-        <g transform="translate(0, 0)">
-      <text
-        x="0"
-        y="0"
-        class="header"
-        data-testid="header"
-      >Most Used Languages</text>
+  <!-- Header Section -->
+  <g transform="translate(18, 14)">
+    <!-- Cute CRT Monitor Icon -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="2" width="24" height="20" rx="4" fill="#0d0418" stroke="#00f5d4" stroke-width="1.4" />
+      <path d="M 4 22 L 2 26 L 22 26 L 20 22" stroke="#00f5d4" stroke-width="1.2" fill="#0d0418" />
+      <ellipse cx="12" cy="12" rx="6" ry="4" fill="#140926" stroke="#ff79c6" stroke-width="1" />
+      <circle cx="12" cy="12" r="2" fill="#00f5d4" />
+      <line x1="8" y1="2" x2="4" y2="-2" stroke="#ff5ea8" stroke-width="1.2" />
+      <line x1="16" y1="2" x2="20" y2="-2" stroke="#ff5ea8" stroke-width="1.2" />
     </g>
-      </g>
-    
 
-        <g
-          data-testid="main-card-body"
-          transform="translate(0, 55)"
-        >
-          
-    <svg data-testid="lang-items" x="25">
-      
-  
-      <mask id="rect-mask">
-          <rect x="0" y="0" width="250" height="8" fill="white" rx="5"/>
-        </mask>
-        
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="0"
-          y="0"
-          width="245.75"
-          height="8"
-          fill="#3178c6"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="245.75"
-          y="0"
-          width="13.48"
-          height="8"
-          fill="#F05138"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="249.23"
-          y="0"
-          width="10.45"
-          height="8"
-          fill="#384d54"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="249.67999999999998"
-          y="0"
-          width="10.32"
-          height="8"
-          fill="#89e051"
-        />
-      
-      
-    <g transform="translate(0, 25)">
-      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#3178c6" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 98.30%
-      </text>
+    <!-- Title & Subtitle -->
+    <text x="36" y="14" class="mono" fill="#00f5d4" font-size="12" font-weight="700" letter-spacing="1.2">✦ Top Languages ✦</text>
+    <text x="36" y="27" class="mono" fill="#ff79c6" font-size="9.5" letter-spacing="0.5">tools that earned their place</text>
+
+    <!-- Badge Right -->
+    <g transform="translate(325, 0)">
+      <rect x="0" y="2" width="98" height="22" rx="11" fill="#120526" stroke="#00f5d4" stroke-width="1" />
+      <circle cx="12" cy="13" r="3.5" fill="#ff3399" class="pulsing" />
+      <text x="22" y="17" class="mono" fill="#00f5d4" font-size="9" font-weight="700" letter-spacing="0.5">CORES ✨</text>
     </g>
-  </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#F05138" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Swift 1.39%
-      </text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="18" y1="52" x2="442" y2="52" stroke="#bd93f9" stroke-width="0.8" stroke-opacity="0.3" />
+
+  <!-- Multi-Segment Glowing Progress Bar -->
+  <g transform="translate(20, 64)">
+    <mask id="barMask">
+      <rect x="0" y="0" width="420" height="12" rx="6" fill="#ffffff" />
+    </mask>
+
+    <rect x="0" y="0" width="420" height="12" rx="6" fill="#100722" stroke="#ff79c6" stroke-width="0.8" stroke-opacity="0.4" />
+
+    <!-- Segments -->
+    <rect x="0" y="0" width="243" height="12" fill="url(#tsGrad)" mask="url(#barMask)" />
+    <rect x="245" y="0" width="84" height="12" fill="url(#rustGrad)" mask="url(#barMask)" />
+    <rect x="331" y="0" width="50" height="12" fill="url(#dartGrad)" mask="url(#barMask)" />
+    <rect x="383" y="0" width="37" height="12" fill="url(#otherGrad)" mask="url(#barMask)" />
+  </g>
+
+  <!-- Languages Legend Grid (2 columns x 3 rows) -->
+  <g transform="translate(20, 96)">
+    <!-- Row 1 Left: TypeScript -->
+    <g transform="translate(0, 0)">
+      <circle cx="8" cy="8" r="4.5" fill="#00f5d4" />
+      <text x="20" y="12" class="mono" fill="#e2e8f0" font-size="11" font-weight="600">TypeScript</text>
+      <text x="110" y="12" class="mono" fill="#00f5d4" font-size="10" font-weight="700">58.0%</text>
     </g>
-  </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#384d54" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Just 0.18%
-      </text>
+
+    <!-- Row 1 Right: Rust -->
+    <g transform="translate(220, 0)">
+      <circle cx="8" cy="8" r="4.5" fill="#ff79c6" />
+      <text x="20" y="12" class="mono" fill="#e2e8f0" font-size="11" font-weight="600">Rust</text>
+      <text x="96" y="12" class="mono" fill="#ff79c6" font-size="10" font-weight="700">20.0%</text>
     </g>
-  </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#89e051" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Shell 0.13%
-      </text>
+
+    <!-- Row 2 Left: Flutter / Dart -->
+    <g transform="translate(0, 30)">
+      <circle cx="8" cy="8" r="4.5" fill="#a855f7" />
+      <text x="20" y="12" class="mono" fill="#e2e8f0" font-size="11" font-weight="600">Flutter / Dart</text>
+      <text x="110" y="12" class="mono" fill="#a855f7" font-size="10" font-weight="700">12.0%</text>
     </g>
-  </g></g>
+
+    <!-- Row 2 Right: C# -->
+    <g transform="translate(220, 30)">
+      <circle cx="8" cy="8" r="4.5" fill="#ffe66d" />
+      <text x="20" y="12" class="mono" fill="#e2e8f0" font-size="11" font-weight="600">C#</text>
+      <text x="96" y="12" class="mono" fill="#ffe66d" font-size="10" font-weight="700">5.5%</text>
     </g>
-  
-    </svg>
-  
-        </g>
-      </svg>
-    
+
+    <!-- Row 3 Left: Bun & Deno -->
+    <g transform="translate(0, 60)">
+      <circle cx="8" cy="8" r="4.5" fill="#38ef7d" />
+      <text x="20" y="12" class="mono" fill="#e2e8f0" font-size="11" font-weight="600">Bun &amp; Deno</text>
+      <text x="110" y="12" class="mono" fill="#38ef7d" font-size="10" font-weight="700">3.0%</text>
+    </g>
+
+    <!-- Row 3 Right: PHP & Shell -->
+    <g transform="translate(220, 60)">
+      <circle cx="8" cy="8" r="4.5" fill="#ff5ea8" />
+      <text x="20" y="12" class="mono" fill="#e2e8f0" font-size="11" font-weight="600">PHP &amp; Shell</text>
+      <text x="96" y="12" class="mono" fill="#ff5ea8" font-size="10" font-weight="700">1.5%</text>
+    </g>
+  </g>
+
+  <!-- Bottom Ticker -->
+  <g transform="translate(20, 199)">
+    <text x="210" y="0" class="mono" text-anchor="middle" fill="#00f5d4" font-size="9" opacity="0.8" letter-spacing="1">
+      ✦ The stack adapts to the idea. Not the other way around ✦
+    </text>
+  </g>
+</svg>

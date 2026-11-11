@@ -1,15 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 215" width="460" height="215">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0416" />
+      <stop offset="50%" stop-color="#120824" />
+      <stop offset="100%" stop-color="#1c0b38" />
+    </linearGradient>
 
-    <svg width="576.5"  height="120" viewBox="0 0 576.5 120" fill="#0D1117" xmlns="http://www.w3.org/2000/svg">
+    <!-- Scanline Pattern -->
+    <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#ff79c6" stroke-width="0.75" stroke-opacity="0.04" />
+    </pattern>
+
     <style>
-    .text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8E44FF }
-    .small { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ffffff }
-    .gray { fill: #858585 }
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.9; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.96); }
+      }
+      .pulsing { animation: pulse 2.4s infinite ease-in-out; }
     </style>
-    <rect x="0.5" y="0.5" width="575.5" height="99%" rx="4.5" fill="#0D1117" stroke="#e4e2e2"/>
-    <text x="25" y="45" class="text">Something went wrong! file an issue at https://tiny.one/readme-stats</text>
-    <text data-testid="message" x="25" y="55" class="text small">
-      <tspan x="25" dy="18">Resource not accessible by integration</tspan>
-      <tspan x="25" dy="18" class="gray">OK</tspan>
+  </defs>
+
+  <!-- Card Background -->
+  <rect x="2" y="2" width="456" height="211" rx="16" fill="url(#bgGrad)" stroke="#ff5ea8" stroke-width="1.4" stroke-opacity="0.8" />
+  <rect x="2" y="2" width="456" height="211" rx="16" fill="url(#scanlines)" />
+  <rect x="5" y="5" width="450" height="205" rx="13" fill="none" stroke="#bd93f9" stroke-width="0.6" stroke-dasharray="4,4" stroke-opacity="0.3" />
+
+  <!-- Corner Accents -->
+  <path d="M 8 18 L 8 8 L 18 8" stroke="#00f5d4" stroke-width="2" fill="none" />
+  <path d="M 452 18 L 452 8 L 442 8" stroke="#ff79c6" stroke-width="2" fill="none" />
+  <path d="M 8 197 L 8 207 L 18 207" stroke="#ff79c6" stroke-width="2" fill="none" />
+  <path d="M 452 197 L 452 207 L 442 207" stroke="#00f5d4" stroke-width="2" fill="none" />
+
+  <!-- Header Section -->
+  <g transform="translate(18, 14)">
+    <!-- Dripping Void Mascot -->
+    <g transform="translate(0, 0)">
+      <ellipse cx="14" cy="14" rx="12" ry="11" fill="#0d0418" stroke="#ff5ea8" stroke-width="1.4" />
+      <path d="M 3 7 Q 0 0 6 4" stroke="#ff5ea8" stroke-width="1.3" fill="#0d0418" />
+      <path d="M 25 7 Q 28 0 22 4" stroke="#ff5ea8" stroke-width="1.3" fill="#0d0418" />
+      <path d="M 12 24 C 12 28, 16 28, 16 24 Z" fill="#ff5ea8" />
+      <!-- x_x eyes -->
+      <path d="M 8 11 L 12 15 M 12 11 L 8 15" stroke="#ff79c6" stroke-width="1.4" stroke-linecap="round" />
+      <path d="M 16 11 L 20 15 M 20 11 L 16 15" stroke="#ff79c6" stroke-width="1.4" stroke-linecap="round" />
+      <circle cx="6" cy="16" r="1.8" fill="#ff3399" opacity="0.8" />
+      <circle cx="22" cy="16" r="1.8" fill="#ff3399" opacity="0.8" />
+    </g>
+
+    <!-- Title & Subtitle -->
+    <text x="36" y="14" class="mono" fill="#ff79c6" font-size="12" font-weight="700" letter-spacing="1.2">✦ System Telemetry ✦</text>
+    <text x="36" y="27" class="mono" fill="#00f5d4" font-size="9.5" letter-spacing="0.5">systems underneath, always intentional</text>
+
+    <!-- Status Badge Right -->
+    <g transform="translate(325, 0)">
+      <rect x="0" y="2" width="98" height="22" rx="11" fill="#120526" stroke="#ff79c6" stroke-width="1" />
+      <circle cx="12" cy="13" r="3.5" fill="#38ef7d" class="pulsing" />
+      <text x="22" y="17" class="mono" fill="#ffe66d" font-size="9" font-weight="700" letter-spacing="0.5">ONLINE ✨</text>
+    </g>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="18" y1="52" x2="442" y2="52" stroke="#bd93f9" stroke-width="0.8" stroke-opacity="0.3" />
+
+  <!-- 4 Metrics Grid -->
+  <!-- Box 1: Total Commits -->
+  <g transform="translate(20, 62)">
+    <rect x="0" y="0" width="202" height="58" rx="10" fill="#0e051c" stroke="#ff3399" stroke-width="0.9" stroke-opacity="0.5" />
+    <path d="M 4 4 L 4 10" stroke="#ff3399" stroke-width="1.5" />
+    <text x="14" y="18" class="mono" fill="#a0aec0" font-size="9.5" letter-spacing="0.8">TOTAL COMMITS</text>
+    <text x="14" y="42" class="mono" fill="#ff79c6" font-size="19" font-weight="800" id="stat-commits">2,180+</text>
+  </g>
+
+  <!-- Box 2: Earned Stars -->
+  <g transform="translate(238, 62)">
+    <rect x="0" y="0" width="202" height="58" rx="10" fill="#0e051c" stroke="#ffe66d" stroke-width="0.9" stroke-opacity="0.5" />
+    <path d="M 4 4 L 4 10" stroke="#ffe66d" stroke-width="1.5" />
+    <text x="14" y="18" class="mono" fill="#a0aec0" font-size="9.5" letter-spacing="0.8">STARS COLLECTED</text>
+    <text x="14" y="42" class="mono" fill="#ffe66d" font-size="19" font-weight="800" id="stat-stars">142★</text>
+  </g>
+
+  <!-- Box 3: Repositories -->
+  <g transform="translate(20, 128)">
+    <rect x="0" y="0" width="202" height="58" rx="10" fill="#0e051c" stroke="#00f5d4" stroke-width="0.9" stroke-opacity="0.5" />
+    <path d="M 4 4 L 4 10" stroke="#00f5d4" stroke-width="1.5" />
+    <text x="14" y="18" class="mono" fill="#a0aec0" font-size="9.5" letter-spacing="0.8">REPOSITORIES</text>
+    <text x="14" y="42" class="mono" fill="#00f5d4" font-size="19" font-weight="800" id="stat-repos">48</text>
+  </g>
+
+  <!-- Box 4: Architecture Cohesion -->
+  <g transform="translate(238, 128)">
+    <rect x="0" y="0" width="202" height="58" rx="10" fill="#0e051c" stroke="#a855f7" stroke-width="0.9" stroke-opacity="0.5" />
+    <path d="M 4 4 L 4 10" stroke="#a855f7" stroke-width="1.5" />
+    <text x="14" y="18" class="mono" fill="#a0aec0" font-size="9.5" letter-spacing="0.8">SYSTEM COHESION</text>
+    <text x="14" y="42" class="mono" fill="#c084fc" font-size="19" font-weight="800" id="stat-cohesion">99.4%</text>
+  </g>
+
+  <!-- Bottom Ticker -->
+  <g transform="translate(20, 199)">
+    <text x="210" y="0" class="mono" text-anchor="middle" fill="#ff79c6" font-size="9" opacity="0.8" letter-spacing="1">
+      ✦ Built with structure. Dressed in chaos ✦
     </text>
-    </svg>
-  
+  </g>
+</svg>
